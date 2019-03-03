@@ -16,7 +16,7 @@ const Container = styled.footer`
 `
 export default () => (
   <Container>
-    <Link href='https://google.com' target='_blank' alt="Google's website."><p style={{ margin: '10px 0' }}>Google.com</p></Link>
-    <p style={{ margin: '0' }}>Friday, January 11th, 2019</p>
+    <Link href='https://www.byteconf.com/js-2019' target='_blank' alt="Byteconf JavaScript 2019."><p style={{ margin: '10px 0' }}>Byteconf JavaScript 2019</p></Link>
+    <p style={{ margin: '0' }}>Saturday, March 23rd, 2019</p>
   </Container>
 )
