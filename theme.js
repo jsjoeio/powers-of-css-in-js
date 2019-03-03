@@ -1,7 +1,13 @@
 import theme from 'mdx-deck/themes'
+import Provider from './components/Provider'
 
 export default {
   ...theme,
+  font: 'Lato, sans-serif',
+  Provider,
+  heading: {
+    fontFamily: 'Bangers, cursive',
+  },
   colors: {
     ...theme.colors,
     text: '#f7f6fa',
