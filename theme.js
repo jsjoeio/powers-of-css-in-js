@@ -4,6 +4,7 @@ import Provider from './components/Provider'
 export default {
   ...theme,
   font: 'Lato, sans-serif',
+  fontSizes: ['2em', '2.25em', '2.75em', '3em', '4em'],
   Provider,
   heading: {
     fontFamily: 'Bangers, cursive',
